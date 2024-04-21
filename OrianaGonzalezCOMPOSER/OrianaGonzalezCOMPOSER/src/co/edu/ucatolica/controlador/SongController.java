@@ -65,7 +65,6 @@ public class SongController {
         }
     }
 
-
     private void mostrarCancionDesdeArchivo(File file) {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             StringBuilder lyrics = new StringBuilder();
